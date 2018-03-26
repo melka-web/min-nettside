@@ -1,0 +1,142 @@
+
+
+.product h4, p {
+	color:white;
+}
+
+.head-nav{
+	background-color: red;
+}
+
+
+
+.bugs img {
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(border.png) 50 round; /* Safari 3.1-5 */
+    -o-border-image: url(border.png) 50 round; /* Opera 11-12.1 */
+    border-image: url(border.png) 50 round;
+}
+
+
+.aside-nav ul {
+  background: #e8e8e8; 
+  padding:0;
+}
+
+.aside-nav li {
+  color:#444;
+  display:block;
+  font-size:1rem;
+  padding:1.25rem;
+  border-bottom:1px solid #d2d2d2; 
+}
+
+.aside-nav li:hover {
+	background-color: #5A1616
+}
+
+a {
+ text-decoration-line: none;
+ text-underline-position: unset;
+}
+
+
+ul li ul {
+	background-color: white;
+	padding: 0;
+	position: absolute;
+	top: 65px;
+	left: 9000;
+	width: 200px;
+	display: none;
+	visibility:hidden; 
+}
+  #a, #b, #c, #d, #e, #f, #g  {
+	color: white;
+}
+
+li:hover , a:hover , #bugatti:hover {
+	text-decoration-line: none;
+	color: white;
+}
+ #biler:hover , #bugatti:hover {
+ 	color:white;
+ }
+
+#a a:hover {background-color: lightgrey;} 
+ a:active {background-color: green;}  /* selected link */
+
+ ul #biler:hover ul {
+	background-color: black ;
+	display: inline;
+	visibility: visible;
+	margin-right: -100px;
+	color: white;
+
+}
+
+.nav-item:hover {
+	background-color:#D8D8D8;
+	color: black;
+	border-radius: 5px;
+}
+
+ 
+
+#lion {
+	align-content: center;
+}
+
+header a {
+	color: white;
+}
+.navbar-toggler{
+	background-color: white;
+	font-size: 12px;
+}
+.navbar-toggler-icon {
+	background-image: url(nav.png);
+}
+.logo:hover, a:hover {
+	text-decoration-line: line-through;
+}
+ .row .aside {
+    word-wrap: break-word;  
+}
+
+
+
+@media screen and ( max-width:690px) {
+
+	.navbar-toggler {
+
+  }
+  .last {
+  	visibility: hidden;
+  }
+
+  footer .container, #contact {
+
+  	flex-direction: column;
+
+  }
+  footer .container{
+  	font-size: 15px;
+  }
+ .row .aside , .aside a {
+    word-wrap: break-word; 
+    font-size: 1px; 
+}
+#nav{
+	display: inline-block;
+	background-color: white;
+	margin-left: 10px;
+	border-radius: 2px;
+	color:black;
+}
+.nav-link:hover{
+	color: blue;
+}
+
+} 
