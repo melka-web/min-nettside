@@ -105,7 +105,10 @@ header a {
     word-wrap: break-word;  
 }
 
-
+ .row .aside , .aside a {
+    background-color: red;
+    font-size: 5px; 
+}
 
 @media screen and ( max-width:690px) {
 
@@ -124,8 +127,9 @@ header a {
   footer .container{
   	font-size: 15px;
   }
+
  .row .aside , .aside a {
-    word-wrap: break-word; 
+    background-color: blue;
     font-size: 1px; 
 }
 #nav{
