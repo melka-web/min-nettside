@@ -7,7 +7,10 @@
 .head-nav{
 	background-color: red;
 }
-
+ .row .aside , .aside a {
+    background-color:#F9BEA0 ;
+    
+}
 
 
 .bugs img {
@@ -105,12 +108,13 @@ header a {
     word-wrap: break-word;  
 }
 
- .row .aside , .aside a {
-    background-color: red;
-    font-size: 5px; 
-}
+
 
 @media screen and ( max-width:690px) {
+	.row .aside , .aside a {
+    background-color:none;
+    
+}
 
 	.navbar-toggler {
 
@@ -129,9 +133,24 @@ header a {
   }
 
  .row .aside , .aside a {
-    background-color: blue;
-    font-size: 1px; 
+    background-color:none;
+   
 }
+
+.aside-nav li {
+  color:#444;
+  display:block;
+  font-size:11px;
+  padding:1.25rem;
+  border-bottom:1px solid #d2d2d2;
+
+}
+.container div {
+	font-size: 13px; 
+	background-color: none;
+}
+
+
 #nav{
 	display: inline-block;
 	background-color: white;
@@ -142,5 +161,6 @@ header a {
 .nav-link:hover{
 	color: blue;
 }
+ 
 
 } 
